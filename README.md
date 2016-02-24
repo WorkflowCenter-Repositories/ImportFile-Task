@@ -1,5 +1,5 @@
-# Mega-NJ-Task
-##Repository for Mega Neighbor Joining Task 
+# ImportFile-Task
+##Repository for ImportFile Task 
 
 ###How to deploy the task:  
 - Clone this repository to your machine   
