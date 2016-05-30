@@ -4,8 +4,8 @@
 ###How to deploy the task:  
 - Clone this repository to your machine   
 - if you want deploy the task with your own data then  
-  - in Mega-NJ-Task/input folder put your file, edit Mega-NJ-Task/input.yaml file and change 'input-file' to your file name  
-  - in a terminal run . ./task-deploy.sh within Mega-NJ-Task folder  
+  - in ImportFile-Task/input folder put your file, edit ImportFile-Task/input.yaml file and change 'input-file' to your file name  
+  - in a terminal run . ./task-deploy.sh within ImportFile-Task folder  
 - if you are happy to deploy the task with the sample input file in input folder just run task-deploy.sh as above  
 
 ###Information:  
