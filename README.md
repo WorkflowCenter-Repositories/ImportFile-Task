@@ -10,28 +10,27 @@
 
 ###Information:  
 
-  Task-Name: Mega NJ  
+  Task-Name: ImportFile  
   version: 1.0  
-  Description: The task implements neighbour joining method. It was designed in the e-Science Central system.  
-  instruction-file: MegaNJ-instruction  
-  task-dependencies: {java1.7, Wine1.6+, Mega-CC lib}   
+  Description: The task implements importing specific file to be processed by a workflow  
+  task-dependencies: {java1.7}   
   
 Blueprint:  
   
-  blueprint-name: Mega-NJ.yaml  
-  Docker-images: rawa/mega-cc  
+  blueprint-name: Importfile.yaml  
+  Docker-images: dtdwd/importfile1  
   sizes: 736MB  
   OS-types: ubuntu14.4   
   
 Input:  
   
-  input-file(s):   
+  input-file(s): 
   description:   
   types:   
   
 Outputs:  
   
-  output-folder: '~/Mega-NJ'  
+  output-folder: '~/ImportFile'  
   output-file(s): {}  
   description:  
   types: {}  
